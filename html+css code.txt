@@ -1,0 +1,1309 @@
+ File: dashboard.html -->
+<!DOCTYPE html>
+<html<!-- lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dashboard | invest.ai</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f0f8ff;
+      color: #333;
+    }
+    header {
+      background-color: #00bfff;
+      padding: 20px;
+      color: white;
+      text-align: center;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      background: white;
+      padding: 10px;
+      flex-wrap: wrap;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    nav a {
+      margin: 10px;
+      text-decoration: none;
+      color: #00bfff;
+      font-weight: bold;
+    }
+    .container {
+      padding: 20px;
+      text-align: center;
+    }
+    .card {
+      background: white;
+      border-radius: 10px;
+      padding: 20px;
+      margin: 20px auto;
+      max-width: 400px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      color: gray;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome to invest.ai</h1>
+    <p>Very Trusted Website and Long Term</p>
+  </header>
+
+  <nav>
+    <a href="#">Dashboard</a>
+    <a href="#">Buy Plan</a>
+    <a href="#">Deposit</a>
+    <a href="#">Withdrawal</a>
+    <a href="#">Refer Link</a>
+    <a href="#">Customer Service</a>
+    <a href="#">Settings</a>
+    <a href="#">Sign Out</a>
+  </nav>
+
+  <div class="container">
+    <div class="card">
+      <h2>Your Balance</h2>
+      <p>PKR 0.00</p>
+    </div>
+
+    <div class="card">
+      <h3>Active Plan</h3>
+      <p>No active investment plan.</p>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2025 invest.ai – all rights reserved.
+  </footer>
+</body>
+</html>
+<!-- File: signup.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Signup | invest.ai</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f0f8ff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .signup-container {
+      background: white;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+      width: 100%;
+      max-width: 400px;
+    }
+
+    h2 {
+      text-align: center;
+      color: #00bfff;
+      margin-bottom: 20px;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="password"] {
+      width: 100%;
+      padding: 12px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+    }
+
+    button {
+      width: 100%;
+      background-color: #00bfff;
+      color: white;
+      border: none;
+      padding: 12px;
+      margin-top: 15px;
+      font-size: 16px;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #0099cc;
+    }
+
+    .login-link {
+      text-align: center;
+      margin-top: 15px;
+    }
+
+    .login-link a {
+      color: #00bfff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="signup-container">
+    <h2>Create Your Account</h2>
+    <form action="dashboard.html" method="post">
+      <input type="text" name="fullname" placeholder="Full Name" required />
+      <input type="email" name="email" placeholder="Email Address" required />
+      <input type="text" name="phone" placeholder="Phone Number" required />
+      <input type="password" name="password" placeholder="Password" required />
+      <input type="password" name="confirm_password" placeholder="Confirm Password" required />
+      <button type="submit">Sign Up</button>
+    </form>
+
+    <div class="login-link">
+      Already have an account? <a href="login.html">Login here</a>
+    </div>
+  </div>
+
+</body>
+</html>
+<!-- File: login.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Login | invest.ai</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f0f8ff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .login-container {
+      background: white;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+      width: 100%;
+      max-width: 400px;
+    }
+
+    h2 {
+      text-align: center;
+      color: #00bfff;
+      margin-bottom: 20px;
+    }
+
+    input[type="email"],
+    input[type="password"] {
+      width: 100%;
+      padding: 12px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+    }
+
+    button {
+      width: 100%;
+      background-color: #00bfff;
+      color: white;
+      border: none;
+      padding: 12px;
+      margin-top: 15px;
+      font-size: 16px;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #0099cc;
+    }
+
+    .extra-options {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 10px;
+      font-size: 14px;
+    }
+
+    .extra-options a {
+      color: #00bfff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .signup-link {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .signup-link a {
+      color: #00bfff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="login-container">
+    <h2>Login to invest.ai</h2>
+    <form action="dashboard.html" method="post">
+      <input type="email" name="email" placeholder="Email Address" required />
+      <input type="password" name="password" placeholder="Password" required />
+      <div class="extra-options">
+        <a href="forgot-password.html">Forgot Password?</a>
+      </div>
+      <button type="submit">Login</button>
+    </form>
+
+    <div class="signup-link">
+      Don't have an account? <a href="signup.html">Sign up</a>
+    </div>
+  </div>
+
+</body>
+</html>
+<!-- File: forgot-password.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Forgot Password | invest.ai</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f0f8ff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .forgot-container {
+      background: white;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+      width: 100%;
+      max-width: 400px;
+    }
+
+    h2 {
+      text-align: center;
+      color: #00bfff;
+      margin-bottom: 20px;
+    }
+
+    input[type="email"] {
+      width: 100%;
+      padding: 12px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+    }
+
+    button {
+      width: 100%;
+      background-color: #00bfff;
+      color: white;
+      border: none;
+      padding: 12px;
+      margin-top: 15px;
+      font-size: 16px;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #0099cc;
+    }
+
+    .back-link {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .back-link a {
+      color: #00bfff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="forgot-container">
+    <h2>Forgot Password</h2>
+    <form action="reset-confirmation.html" method="post">
+      <input type="email" name="email" placeholder="Enter your email" required />
+      <button type="submit">Reset Password</button>
+    </form>
+    <div class="back-link">
+      <a href="login.html">Back to Login</a>
+    </div>
+  </div>
+
+</body>
+</html>
+<!-- File: index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>invest.ai – Home</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f0f8ff;
+      color: #333;
+    }
+
+    header {
+      background-color: #00bfff;
+      color: white;
+      padding: 30px 20px;
+      text-align: center;
+    }
+
+    nav {
+      background: white;
+      padding: 10px 0;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+
+    nav a {
+      margin: 10px 15px;
+      text-decoration: none;
+      color: #00bfff;
+      font-weight: bold;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 50px 20px;
+    }
+
+    .hero h1 {
+      font-size: 32px;
+      color: #00bfff;
+    }
+
+    .hero p {
+      font-size: 18px;
+      max-width: 600px;
+      margin: auto;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 12px 24px;
+      background-color: #00bfff;
+      color: white;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 40px 20px;
+    }
+
+    .feature-card {
+      background: white;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+      text-align: center;
+    }
+
+    .feature-card h3 {
+      color: #00bfff;
+      margin-bottom: 10px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #e6f7ff;
+      color: #777;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>invest.ai</h1>
+    <p>Pakistan’s Most Trusted Real Investment Platform – Powered by AI</p>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="signup.html">Signup</a>
+    <a href="login.html">Login</a>
+    <a href="dashboard.html">Dashboard</a>
+    <a href="buy-plan.html">Buy Plan</a>
+    <a href="deposit.html">Deposit</a>
+    <a href="withdrawal.html">Withdrawal</a>
+    <a href="refer.html">Refer Link</a>
+    <a href="customer-service.html">Customer Service</a>
+  </nav>
+
+  <section class="hero">
+    <h1>Start Your Investment Journey Today</h1>
+    <p>Join thousands of users investing in real-time, with 100% secure transactions through JazzCash and EasyPaisa. Grow your money confidently with our long-term plans.</p>
+    <a href="signup.html" class="btn">Get Started</a>
+  </section>
+
+  <section class="features">
+    <div class="feature-card">
+      <h3>Real Investment</h3>
+      <p>Invest in stable, long-term plans using PKR with full transparency.</p>
+    </div>
+    <div class="feature-card">
+      <h3>JazzCash & EasyPaisa</h3>
+      <p>Instant deposits and withdrawals using trusted Pakistani payment systems.</p>
+    </div>
+    <div class="feature-card">
+      <h3>AI Powered Dashboard</h3>
+      <p>Track all your earnings, active plans, and referrals in real-time.</p>
+    </div>
+    <div class="feature-card">
+      <h3>Secure & Trusted</h3>
+      <p>invest.ai is a long-term trusted platform with 24/7 support and full privacy.</p>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 invest.ai – All rights reserved.
+  </footer>
+
+</body>
+</html>
+<!-- File: deposit.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Deposit | invest.ai</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f0f8ff;
+      color: #333;
+    }
+
+    header {
+      background-color: #00bfff;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+
+    .container {
+      max-width: 500px;
+      margin: 40px auto;
+      background: white;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+
+    h2 {
+      text-align: center;
+      color: #00bfff;
+    }
+
+    label {
+      display: block;
+      margin-top: 15px;
+      margin-bottom: 5px;
+      font-weight: bold;
+    }
+
+    input, select {
+      width: 100%;
+      padding: 12px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+    }
+
+    button {
+      width: 100%;
+      background-color: #00bfff;
+      color: white;
+      border: none;
+      padding: 12px;
+      margin-top: 20px;
+      font-size: 16px;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #0099cc;
+    }
+
+    .instructions {
+      background: #e6f7ff;
+      padding: 15px;
+      border-radius: 8px;
+      margin-top: 20px;
+      font-size: 14px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      color: gray;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Deposit Funds</h1>
+  </header>
+
+  <div class="container">
+    <h2>Make a Deposit</h2>
+    <form action="dashboard.html" method="post">
+      <label for="method">Select Payment Method</label>
+      <select name="method" id="method" required>
+        <option value="">-- Select --</option>
+        <option value="easypaisa">EasyPaisa</option>
+        <option value=""></option>
+      </select>
+
+      <label for="amount">Enter Amount minimum 300 (PKR)</label>
+      <input type="number" name="300" id="amount" placeholder="e.g. 300" required />
+
+      <label for="sender">Sender Number</label>
+      <input type="text" trx,id="" id="sender" placeholder="03707375080" required />
+      
+      <button type="submit">Submit Deposit Request</button>
+    </form>
+
+    <div class="instructions">
+      <strong>Note:</strong> Please transfer the selected amount to the following account:<br><br>
+      <strong>EasyPaisa / JazzCash  same numb:</strong> <span style="color:green">03707375080</span><br>
+      After payment, submit your details above .take a screen shot custmer service Our team will verify and approve it within  1,5 hour.
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2025 invest.ai – All rights reserved.
+  </footer>
+
+</body>
+</html>
+<!-- File: buy-plan.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Buy Plan | invest.ai</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f0f8ff;
+      color: #333;
+    }
+
+    header {
+      background-color: #00bfff;
+      color: white;
+      text-align: center;
+      padding: 25px;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    h2 {
+      text-align: center;
+      color: #00bfff;
+      margin-bottom: 30px;
+    }
+
+    .plans {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .plan-card {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+      padding: 25px;
+      text-align: center;
+      transition: 0.3s ease;
+    }
+
+    .plan-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 6px 16px rgba(0,0,0,0.1);
+    }
+
+    .plan-card h3 {
+      color: #00bfff;
+      margin-bottom: 10px;
+    }
+
+    .plan-card p {
+      margin: 10px 0;
+      font-size: 15px;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 10px 20px;
+      background-color: #00bfff;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    .btn:hover {
+      background-color: #0099cc;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      color: gray;
+      font-size: 14px;
+      margin-top: 40px;
+    }
+<!-- File: buy-plan.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Buy Plan | invest.ai</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f0f8ff;
+      color: #333;
+    }
+
+    header {
+      background-color: #00bfff;
+      color: white;
+      text-align: center;
+      padding: 25px;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    h2 {
+      text-align: center;
+      color: #00bfff;
+      margin-bottom: 30px;
+    }
+
+    .plans {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .plan-card {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+      padding: 25px;
+      text-align: center;
+      transition: 0.3s ease;
+    }
+
+    .plan-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 6px 16px rgba(0,0,0,0.1);
+    }
+
+    .plan-card h3 {
+      color: #00bfff;
+      margin-bottom: 10px;
+    }
+
+    .plan-card p {
+      margin: 10px 0;
+      font-size: 15px;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 10px 20px;
+      background-color: #00bfff;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    .btn:hover {
+      background-color: #0099cc;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      color: gray;
+      font-size: 14px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Buy Investment Plan</h1>
+  </header>
+
+  <div class="container">
+    <h2>Select a Plan That Suits You</h2>
+    <div class="plans">
+      <div class="plan-card">
+        <h3>Plan A</h3>
+        <p>Invest: PKR 300</p>
+        <p>Return: PKR 400</p>
+        <p>Duration: 7 Days</p>
+        <a href="#" class="btn">Buy Now</a>
+      </div>
+
+      <div class="plan-card">
+        <h3>Plan B</h3>
+        <p>Invest: PKR 500</p>
+        <p>Return: PKR 750</p>
+        <p>Duration: 6 Days</p>
+        <a href="#" class="btn">Buy Now</a>
+      </div>
+
+      <div class="plan-card">
+        <h3>Plan C</h3>
+        <p>Invest: PKR 1000</p>
+        <p>Return: PKR 1400</p>
+        <p>Duration: 7 Days</p>
+        <a href="#" class="btn">Buy Now</a>
+      </div>
+
+      <div class="plan-card">
+        <h3>Plan D</h3>
+        <p>Invest: PKR 2000</p>
+        <p>Return: PKR 2800</p>
+        <p>Duration: 10 Days</p>
+        <a href="#" class="btn">Buy Now</a>
+      </div>
+
+      <div class="plan-card">
+        <h3>Plan E</h3>
+        <p>Invest: PKR 5000</p>
+        <p>Return: PKR 7000</p>
+        <p>Duration: 14 Days</p>
+        <a href="#" class="btn">Buy Now</a>
+      </div>
+
+      <div class="plan-card">
+        <h3>Plan F</h3>
+        <p>Invest: PKR 10000</p>
+        <p>Return: PKR 14000</p>
+        <p>Duration: 20 Days</p>
+        <a href="#" class="btn">Buy Now</a>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2025 invest.ai – All rights reserved.
+  </footer>
+
+</body>
+</html>
+<!-- File: withdrawal.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Withdrawal | invest.ai</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f0f8ff;
+      color: #333;
+    }
+
+    header {
+      background-color: #00bfff;
+      color: white;
+      text-align: center;
+      padding: 25px;
+    }
+
+    .container {
+      max-width: 500px;
+      margin: 40px auto;
+      background: white;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+
+    h2 {
+      text-align: center;
+      color: #00bfff;
+      margin-bottom: 25px;
+    }
+
+    label {
+      font-weight: bold;
+      margin-top: 15px;
+      display: block;
+      margin-bottom: 6px;
+    }
+
+    input, select {
+      width: 100%;
+      padding: 12px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      margin-bottom: 15px;
+    }
+
+    button {
+      width: 100%;
+      background-color: #00bfff;
+      color: white;
+      border: none;
+      padding: 12px;
+      font-size: 16px;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #0099cc;
+    }
+
+    .note {
+      background: #e6f7ff;
+      padding: 15px;
+      border-radius: 8px;
+      margin-top: 20px;
+      font-size: 14px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+      color: gray;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Withdraw Funds</h1>
+  </header>
+
+  <div class="container">
+    <h2>Request a Withdrawal</h2>
+    <form action="dashboard.html" method="post">
+      <label for="method">Select Withdrawal Method</label>
+      <select id="method" name="method" required>
+        <option value="">-- Select --</option>
+        <option value="easypaisa">EasyPaisa</option>
+        <option value="jazzcash">JazzCash</option>
+      </select>
+
+      <label for="number">Account Number</label>
+      <input type="text" id="number" name="number" placeholder="03XX-XXXXXXX" required />
+
+      <label for="amount"> min Amount 300 (PKR)</label>
+      <input type="number" id="amount" name="amount" placeholder="e.g. 300" required />
+
+      <button type="submit">Submit Withdrawal Request</button>
+    </form>
+
+    <div class="note">
+      <strong>Note:</strong><br>
+      Withdrawals are processed within 1 to 12 hours.<br>
+      Make sure your number is correct and registered with JazzCash or EasyPaisa.
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2025 invest.ai – All rights reserved.
+  </footer>
+
+</body>
+</html>
+<!-- File: settings.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Settings | invest.ai</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #f0f8ff;
+      color: #333;
+    }
+
+    header {
+      background-color: #00bfff;
+      color: white;
+      text-align: center;
+      padding: 25px;
+    }
+
+    .container {
+      max-width: 500px;
+      margin: 40px auto;
+      background: white;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+
+    h2 {
+      color: #00bfff;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    label {
+      display: block;
+      margin-top: 15px;
+      margin-bottom: 6px;
+      font-weight: bold;
+    }
+
+    input {
+      width: 100%;
+      padding: 12px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      margin-bottom: 15px;
+    }
+
+    button {
+      width: 100%;
+      background-color: #00bfff;
+      color: white;
+      border: none;
+      padding: 12px;
+      font-size: 16px;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #0099cc;
+    }
+
+    .signout-btn {
+      background-color: #ff4d4d;
+      margin-top: 20px;
+    }
+
+    .signout-btn:hover {
+      background-color: #cc0000;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      color: gray;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Account Settings</h1>
+  </header>
+
+  <div class="container">
+    <h2>Change Password</h2>
+    <form action="dashboard.html" method="post">
+      <label for="current">Current Password</label>
+      <input type="password" id="current" name="current" required />
+
+      <label for="new">New Password</label>
+      <input type="password" id="new" name="new" required />
+
+      <label for="confirm">Confirm New Password</label>
+      <input type="password" id="confirm" name="confirm" required />
+
+      <button type="submit">Update Password</button>
+    </form>
+
+    <form action="login.html" method="post">
+      <button class="signout-btn" type="submit">Sign Out</button>
+    </form>
+  </div>
+
+  <footer>
+    &copy; 2025 invest.ai – All rights reserved.
+  </footer>
+
+</body>
+</html>
+<!-- File: refer.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Refer Link | invest.ai</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #f0f8ff;
+    }
+
+    header {
+      background-color: #00bfff;
+      color: white;
+      text-align: center;
+      padding: 25px;
+    }
+
+    .container {
+      max-width: 500px;
+      margin: 50px auto;
+      background: white;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+
+    h2 {
+      color: #00bfff;
+      margin-bottom: 20px;
+    }
+
+    input {
+      width: 100%;
+      padding: 12px;
+      font-size: 16px;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+    }
+
+    button {
+      margin-top: 15px;
+      padding: 12px 24px;
+      background-color: #00bfff;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #0099cc;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      color: gray;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Referral Program</h1>
+  </header>
+
+  <div class="container">
+    <h2>Your Referral Link in 10 persent cammisions</h2>
+    <input type="text" id="refLink" value="https://invest.ai/signup?ref=yourname" readonly />
+    <button onclick="copyLink()">Copy Link</button>
+  </div>
+
+  <script>
+    function copyLink() {
+      var copyText = document.getElementById("refLink");
+      copyText.select();
+      copyText.setSelectionRange(0, 99999);
+      document.execCommand("copy");
+      alert("Referral link copied!");
+    }
+  </script>
+
+  <footer>
+    &copy; 2025 invest.ai – Earn commission from every user you refer!
+  </footer>
+
+</body>
+</html>
+<!-- File: customer-service.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Customer Service | invest.ai</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f0f8ff;
+      color: #333;
+    }
+
+    header {
+      background-color: #00bfff;
+      color: white;
+      text-align: center;
+      padding: 25px;
+    }
+
+    .container {
+      max-width: 500px;
+      margin: 40px auto;
+      background: white;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+
+    h2 {
+      text-align: center;
+      color: #00bfff;
+    }
+
+    label {
+      font-weight: bold;
+      display: block;
+      margin-top: 15px;
+    }
+
+    select, textarea {
+      width: 100%;
+      padding: 12px;
+      margin-top: 10px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+    }
+
+    button {
+      width: 100%;
+      background-color: #00bfff;
+      color: white;
+      border: none;
+      padding: 12px;
+      margin-top: 20px;
+      font-size: 16px;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #0099cc;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      color: gray;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Customer Service</h1>
+  </header>
+
+  <div class="container">
+    <h2>Submit Your Issue</h2>
+    <form action="dashboard.html" method="post">
+      <label for="issueType">Select an Issue</label>
+      <select id="issueType" name="issueType" required>
+        <option value="">-- Select --</option>
+        <option value="deposit">Deposit Not Received</option>
+        <option value="withdrawal">Withdrawal Not Received</option>
+        <option value="other">Other Issue</option>
+      </select>
+
+      <label for="message">Describe your issue</label>
+      <textarea id="message" name="message" rows="4" placeholder="Write details..." required></textarea>
+
+      <button type="submit">Submit Request</button>
+    </form>
+  </div>
+
+  <footer>
+    &copy; 2025 invest.ai – We’re here to help you 24/7
+  </footer>
+
+</body>
+</html>
